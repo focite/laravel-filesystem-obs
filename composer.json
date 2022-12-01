@@ -1,0 +1,23 @@
+{
+    "name": "jaravel/laravel-filesystem-obs",
+    "description": "huawei cloud obs filesystem storage for laravel 5+",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jaravel\\Flysystem\\Obs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaravel\\Flysystem\\Obs\\ObsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
