@@ -1,5 +1,5 @@
 {
-    "name": "jaravel/laravel-filesystem-obs",
+    "name": "focite/laravel-filesystem-obs",
     "description": "huawei cloud obs filesystem storage for laravel 5+",
     "license": "MIT",
     "require": {
@@ -7,13 +7,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Jaravel\\Flysystem\\Obs\\": "src/"
+            "Focite\\Flysystem\\Obs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jaravel\\Flysystem\\Obs\\ObsServiceProvider"
+                "Focite\\Flysystem\\Obs\\ObsServiceProvider"
             ]
         }
     },
